@@ -1,5 +1,5 @@
 // @flow strict
-import Link from 'next/link';
+import Link from "next/link";
 import { CgGitFork } from "react-icons/cg";
 import { IoStar } from "react-icons/io5";
 
@@ -12,12 +12,19 @@ function Footer() {
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between">
           <p className="text-sm">
-            © GitHub Portfolio by <Link target="_blank" href="https://www.linkedin.com/in/abu-said-bd/" className="text-primary-icon">Abu Said</Link>
+            © GitHub Portfolio by{" "}
+            <Link
+              target="_blank"
+              href="https://www.linkedin.com/in/savinorasola/"
+              className="text-primary-icon"
+            >
+              Savino Rasola
+            </Link>
           </p>
           <div className="flex items-center gap-5">
             <Link
               target="_blank"
-              href="https://github.com/said7388/github-portfolio"
+              href="https://github.com/savino9/github-portfolio"
               className="flex items-center gap-2 uppercase hover:text-primary-icon"
             >
               <IoStar />
@@ -25,7 +32,7 @@ function Footer() {
             </Link>
             <Link
               target="_blank"
-              href="https://github.com/said7388/github-portfolio/fork"
+              href="https://github.com/savino9/github-portfolio/fork"
               className="flex items-center gap-2 uppercase hover:text-primary-icon"
             >
               <CgGitFork />
@@ -34,8 +41,8 @@ function Footer() {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
-};
+}
 
 export default Footer;
