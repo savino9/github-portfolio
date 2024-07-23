@@ -18,4 +18,5 @@ export const userData = {
     "Postgres",
     "Graphql",
   ],
+  timezone: "+1",
 };
