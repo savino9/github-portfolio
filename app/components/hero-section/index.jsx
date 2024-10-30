@@ -1,5 +1,3 @@
-// @flow strict
-
 import { userData } from "@/data/user-data";
 import Image from "next/image";
 import Link from "next/link";
